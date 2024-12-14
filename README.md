@@ -3,6 +3,7 @@
 1. Displays real-time lyrics for the currently playing media track (i.e one line per timestamp) using `api.textyl.co`. Uses a 500ms timer to detect timestamps.
 2. Supports positioning the lyric/form anywhere on the screen.
 3. Supports staying on top or slideshow modes by pressing the F6 and F5 buttons respectively (only applies when the form is in focus).
+4. Does not integrate with a particular media app: uses Windows RT API to read media track/playback information, such as media playing through Spotify, Music Groove, Chrome tabs, etc.
 
 # How to Use
 
